@@ -13,10 +13,12 @@ const SearchContainer=styled(Box)`
 const InputSearchBase=styled(InputBase)`
     padding-left: 10px;
     width: 100%;
-`
+    font-size: unset;
+    `
 
 const SearchIconWrapper = styled(Box)`
   padding: 5px;
+  display: flex;
 `;
 const Search = () => {
   return (

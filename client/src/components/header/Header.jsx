@@ -48,9 +48,8 @@ const Header = () => {
         </Component>
         <Search />
         <CustomButtonWrapper>
-            <CustomButton/>
+          <CustomButton />
         </CustomButtonWrapper>
-
       </Toolbar>
     </StyledHeader>
   );
