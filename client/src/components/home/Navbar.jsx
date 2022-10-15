@@ -22,6 +22,9 @@ const Text=styled(Typography)`
 `
 const Navbar = () => {
   return (
+    
+      <Box  style={{background: '#fff'}}>
+
     <Component>
         {
             navData.map((data=>(
@@ -32,6 +35,7 @@ const Navbar = () => {
             )))
         }
     </Component>
+        </Box>
   )
 }
 
